@@ -29,17 +29,17 @@
 
     <div class="row">
       <div class="col-sm-6">
-        {{-- <a class="btn btn-block btn-default" href="{{route('admin.category.create')}}">Создать категорию</a>
-        @foreach ($categories as $category)
+        <a class="btn btn-block btn-default" href="{{route('admin.category.create')}}">Создать категорию</a>
+        {{-- @foreach ($categories as $category)
           <a class="list-group-item" href="{{route('admin.category.edit',$category)}}">
             <h4 class="list-group-item-heading">{{$category->title}}</h4>
               <p class="list-group-item-text">
                {{ $category->articles()->count() }}
               </p>
           </a>
-        @endforeach 
+        @endforeach  --}}
         </div>
-        <div class="col-sm-6">
+        {{-- <div class="col-sm-6">
           <a class="btn btn-block btn-default" href="{{route('admin.article.create')}}">Создать материал</a>
           @foreach ($articles as $article)
           <a class="list-group-item" href="{{route('admin.article.edit',$article)}}">
@@ -49,8 +49,8 @@
               </p>
             </a>
             @endforeach 
-          </div>
-     --}}
+          </div> --}}
+    
     </div>
   </div>
 </div>
